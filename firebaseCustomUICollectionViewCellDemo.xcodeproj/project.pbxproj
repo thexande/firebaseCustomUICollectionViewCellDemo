@@ -14,6 +14,7 @@
 		B06CC33D1D947B7F001E25AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06CC33B1D947B7F001E25AF /* LaunchScreen.storyboard */; };
 		B06CC3481D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3471D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoTests.swift */; };
 		B06CC3531D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3521D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift */; };
+		B06CC3611D9481CA001E25AF /* AddDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3601D9481CA001E25AF /* AddDogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B06CC34E1D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebaseCustomUICollectionViewCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06CC3521D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseCustomUICollectionViewCellDemoUITests.swift; sourceTree = "<group>"; };
 		B06CC3541D947B7F001E25AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06CC3601D9481CA001E25AF /* AddDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B06CC3391D947B7F001E25AF /* Assets.xcassets */,
 				B06CC33B1D947B7F001E25AF /* LaunchScreen.storyboard */,
 				B06CC33E1D947B7F001E25AF /* Info.plist */,
+				B06CC3601D9481CA001E25AF /* AddDogViewController.swift */,
 			);
 			path = firebaseCustomUICollectionViewCellDemo;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06CC3351D947B7F001E25AF /* ViewController.swift in Sources */,
+				B06CC3611D9481CA001E25AF /* AddDogViewController.swift in Sources */,
 				B06CC3331D947B7F001E25AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
