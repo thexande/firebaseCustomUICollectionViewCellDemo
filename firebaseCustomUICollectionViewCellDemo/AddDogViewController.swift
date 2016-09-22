@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import Firebase
 
 class AddDogViewController: UIViewController {
-
+    let firebaseRootRef = FIRDatabase.database().reference()
+    
+    @IBOutlet weak var dogName: UITextField!
+    @IBOutlet weak var dogAge: UITextField!
+    @IBOutlet weak var favoriteToy: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,6 +41,17 @@ class AddDogViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func saveBtn(_ sender: AnyObject) {
+        // gather dog data and create dog
+        let key = firebaseRootRef.child("dogs").childByAutoId().key
+        let dog = [
+            "name": dogName.text,
+            "age": dogAge.text,
+            "favorite_toy": favoriteToy.text
+        ]
+        // update dog in firebase
+        let childUpdates = ["/dogs/\(key)" : dog]
+        firebaseRootRef.updateChildValues(childUpdates)
+        // dismiss view
         self.dismiss(animated: true, completion: nil)
     }
 

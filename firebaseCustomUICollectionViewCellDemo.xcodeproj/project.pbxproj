@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78B0B7C6C4BCC0E12CB71044 /* Pods_firebaseCustomUICollectionViewCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FCEEF30F948582E4A3194C /* Pods_firebaseCustomUICollectionViewCellDemo.framework */; };
+		9AB6D5092A57BD72A20B37F2 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A815C4018747CF657933545 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework */; };
 		B06CC3331D947B7F001E25AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3321D947B7F001E25AF /* AppDelegate.swift */; };
 		B06CC3351D947B7F001E25AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3341D947B7F001E25AF /* ViewController.swift */; };
 		B06CC3381D947B7F001E25AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06CC3361D947B7F001E25AF /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 		B06CC3481D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3471D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoTests.swift */; };
 		B06CC3531D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3521D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift */; };
 		B06CC3611D9481CA001E25AF /* AddDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3601D9481CA001E25AF /* AddDogViewController.swift */; };
+		B06CC3631D9489E9001E25AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B06CC3621D9489E9001E25AF /* GoogleService-Info.plist */; };
+		B06CC3651D948AFF001E25AF /* ShowDogsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3641D948AFF001E25AF /* ShowDogsCollectionViewController.swift */; };
+		B06CC3671D948B28001E25AF /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3661D948B28001E25AF /* DogCollectionViewCell.swift */; };
+		F45C7114CF1DC188D32F93EB /* Pods_firebaseCustomUICollectionViewCellDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75F4F3902108E8F6C50D47A /* Pods_firebaseCustomUICollectionViewCellDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A815C4018747CF657933545 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseCustomUICollectionViewCellDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B8B10D076F1A7DA6A40A9E /* Pods-firebaseCustomUICollectionViewCellDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoUITests/Pods-firebaseCustomUICollectionViewCellDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EBE0A097A1FE6F820F27DDF /* Pods-firebaseCustomUICollectionViewCellDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoTests/Pods-firebaseCustomUICollectionViewCellDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		38FCEEF30F948582E4A3194C /* Pods_firebaseCustomUICollectionViewCellDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseCustomUICollectionViewCellDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F850CA423977E26256A2CB /* Pods-firebaseCustomUICollectionViewCellDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoTests/Pods-firebaseCustomUICollectionViewCellDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2B3A3704BD7E354EB6E8EA /* Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		885C5409EAAD09746BB8D24D /* Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoUITests/Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97056550DF7E16C103484F9F /* Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B06CC32F1D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseCustomUICollectionViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06CC3321D947B7F001E25AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06CC3341D947B7F001E25AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		B06CC3521D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseCustomUICollectionViewCellDemoUITests.swift; sourceTree = "<group>"; };
 		B06CC3541D947B7F001E25AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06CC3601D9481CA001E25AF /* AddDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogViewController.swift; sourceTree = "<group>"; };
+		B06CC3621D9489E9001E25AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B06CC3641D948AFF001E25AF /* ShowDogsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDogsCollectionViewController.swift; sourceTree = "<group>"; };
+		B06CC3661D948B28001E25AF /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
+		D75F4F3902108E8F6C50D47A /* Pods_firebaseCustomUICollectionViewCellDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseCustomUICollectionViewCellDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B0B7C6C4BCC0E12CB71044 /* Pods_firebaseCustomUICollectionViewCellDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB6D5092A57BD72A20B37F2 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45C7114CF1DC188D32F93EB /* Pods_firebaseCustomUICollectionViewCellDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56240E52A554608C319EF8CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38FCEEF30F948582E4A3194C /* Pods_firebaseCustomUICollectionViewCellDemo.framework */,
+				0A815C4018747CF657933545 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework */,
+				D75F4F3902108E8F6C50D47A /* Pods_firebaseCustomUICollectionViewCellDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B06CC3261D947B7F001E25AF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				B06CC3461D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoTests */,
 				B06CC3511D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemoUITests */,
 				B06CC3301D947B7F001E25AF /* Products */,
+				CD7F3AD17F776B026B5447A5 /* Pods */,
+				56240E52A554608C319EF8CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,7 @@
 		B06CC3311D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B06CC3621D9489E9001E25AF /* GoogleService-Info.plist */,
 				B06CC3321D947B7F001E25AF /* AppDelegate.swift */,
 				B06CC3341D947B7F001E25AF /* ViewController.swift */,
 				B06CC3361D947B7F001E25AF /* Main.storyboard */,
@@ -106,6 +140,8 @@
 				B06CC33B1D947B7F001E25AF /* LaunchScreen.storyboard */,
 				B06CC33E1D947B7F001E25AF /* Info.plist */,
 				B06CC3601D9481CA001E25AF /* AddDogViewController.swift */,
+				B06CC3641D948AFF001E25AF /* ShowDogsCollectionViewController.swift */,
+				B06CC3661D948B28001E25AF /* DogCollectionViewCell.swift */,
 			);
 			path = firebaseCustomUICollectionViewCellDemo;
 			sourceTree = "<group>";
@@ -128,6 +164,19 @@
 			path = firebaseCustomUICollectionViewCellDemoUITests;
 			sourceTree = "<group>";
 		};
+		CD7F3AD17F776B026B5447A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D2B3A3704BD7E354EB6E8EA /* Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig */,
+				97056550DF7E16C103484F9F /* Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig */,
+				48F850CA423977E26256A2CB /* Pods-firebaseCustomUICollectionViewCellDemoTests.debug.xcconfig */,
+				2EBE0A097A1FE6F820F27DDF /* Pods-firebaseCustomUICollectionViewCellDemoTests.release.xcconfig */,
+				885C5409EAAD09746BB8D24D /* Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig */,
+				12B8B10D076F1A7DA6A40A9E /* Pods-firebaseCustomUICollectionViewCellDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06CC3571D947B7F001E25AF /* Build configuration list for PBXNativeTarget "firebaseCustomUICollectionViewCellDemo" */;
 			buildPhases = (
+				133D4D208A339DB6AB09984A /* [CP] Check Pods Manifest.lock */,
 				B06CC32B1D947B7F001E25AF /* Sources */,
 				B06CC32C1D947B7F001E25AF /* Frameworks */,
 				B06CC32D1D947B7F001E25AF /* Resources */,
+				9CE698BEBEA171E96644E3F3 /* [CP] Embed Pods Frameworks */,
+				AEEC9DFA4E9E4C88FEAD4D19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06CC35A1D947B7F001E25AF /* Build configuration list for PBXNativeTarget "firebaseCustomUICollectionViewCellDemoTests" */;
 			buildPhases = (
+				E39374CCB0CADE18CAD78DE3 /* [CP] Check Pods Manifest.lock */,
 				B06CC33F1D947B7F001E25AF /* Sources */,
 				B06CC3401D947B7F001E25AF /* Frameworks */,
 				B06CC3411D947B7F001E25AF /* Resources */,
+				FA3778DA0A13F63BEC64FAFB /* [CP] Embed Pods Frameworks */,
+				14B83296E0BBA73AAC6E9D5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B06CC35D1D947B7F001E25AF /* Build configuration list for PBXNativeTarget "firebaseCustomUICollectionViewCellDemoUITests" */;
 			buildPhases = (
+				4D058DFB8CE7BE8C92604267 /* [CP] Check Pods Manifest.lock */,
 				B06CC34A1D947B7F001E25AF /* Sources */,
 				B06CC34B1D947B7F001E25AF /* Frameworks */,
 				B06CC34C1D947B7F001E25AF /* Resources */,
+				EC34CC30492ACFE42C836BFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06CC33D1D947B7F001E25AF /* LaunchScreen.storyboard in Resources */,
+				B06CC3631D9489E9001E25AF /* GoogleService-Info.plist in Resources */,
 				B06CC33A1D947B7F001E25AF /* Assets.xcassets in Resources */,
 				B06CC3381D947B7F001E25AF /* Main.storyboard in Resources */,
 			);
@@ -260,6 +318,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		133D4D208A339DB6AB09984A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14B83296E0BBA73AAC6E9D5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoTests/Pods-firebaseCustomUICollectionViewCellDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D058DFB8CE7BE8C92604267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE698BEBEA171E96644E3F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEC9DFA4E9E4C88FEAD4D19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E39374CCB0CADE18CAD78DE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC34CC30492ACFE42C836BFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoUITests/Pods-firebaseCustomUICollectionViewCellDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3778DA0A13F63BEC64FAFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoTests/Pods-firebaseCustomUICollectionViewCellDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B06CC32B1D947B7F001E25AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +448,8 @@
 			files = (
 				B06CC3351D947B7F001E25AF /* ViewController.swift in Sources */,
 				B06CC3611D9481CA001E25AF /* AddDogViewController.swift in Sources */,
+				B06CC3671D948B28001E25AF /* DogCollectionViewCell.swift in Sources */,
+				B06CC3651D948AFF001E25AF /* ShowDogsCollectionViewController.swift in Sources */,
 				B06CC3331D947B7F001E25AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +600,7 @@
 		};
 		B06CC3581D947B7F001E25AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2B3A3704BD7E354EB6E8EA /* Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
@@ -430,6 +614,7 @@
 		};
 		B06CC3591D947B7F001E25AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97056550DF7E16C103484F9F /* Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
@@ -443,6 +628,7 @@
 		};
 		B06CC35B1D947B7F001E25AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F850CA423977E26256A2CB /* Pods-firebaseCustomUICollectionViewCellDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +644,7 @@
 		};
 		B06CC35C1D947B7F001E25AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBE0A097A1FE6F820F27DDF /* Pods-firebaseCustomUICollectionViewCellDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +660,7 @@
 		};
 		B06CC35E1D947B7F001E25AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885C5409EAAD09746BB8D24D /* Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
@@ -487,6 +675,7 @@
 		};
 		B06CC35F1D947B7F001E25AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8B10D076F1A7DA6A40A9E /* Pods-firebaseCustomUICollectionViewCellDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
@@ -518,6 +707,7 @@
 				B06CC3591D947B7F001E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06CC35A1D947B7F001E25AF /* Build configuration list for PBXNativeTarget "firebaseCustomUICollectionViewCellDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +716,7 @@
 				B06CC35C1D947B7F001E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06CC35D1D947B7F001E25AF /* Build configuration list for PBXNativeTarget "firebaseCustomUICollectionViewCellDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +725,7 @@
 				B06CC35F1D947B7F001E25AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

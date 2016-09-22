@@ -1,0 +1,6 @@
+framework module Pods_firebaseCustomUICollectionViewCellDemo {
+  umbrella header "Pods-firebaseCustomUICollectionViewCellDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

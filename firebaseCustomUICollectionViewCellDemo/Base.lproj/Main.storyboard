@@ -126,6 +126,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="dogAge" destination="FT3-Fr-pss" id="MI4-f2-xPm"/>
+                        <outlet property="dogName" destination="fj8-O9-n4e" id="toC-6G-UYC"/>
+                        <outlet property="favoriteToy" destination="qBj-IS-I4f" id="biy-TO-nPD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7yL-jA-y0a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
