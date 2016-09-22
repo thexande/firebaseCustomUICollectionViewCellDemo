@@ -42,11 +42,15 @@ class AddDogViewController: UIViewController {
     }
     @IBAction func saveBtn(_ sender: AnyObject) {
         // gather dog data and create dog
+        let age: String = dogAge.text as String!
+        let name: String = dogName.text as String!
+        let favorite_toy: String = favoriteToy.text as String!
+        
         let key = firebaseRootRef.child("dogs").childByAutoId().key
         let dog = [
-            "name": dogName.text,
-            "age": dogAge.text,
-            "favorite_toy": favoriteToy.text
+            "name": name,
+            "age": age,
+            "favorite_toy": favorite_toy
         ]
         // update dog in firebase
         let childUpdates = ["/dogs/\(key)" : dog]
