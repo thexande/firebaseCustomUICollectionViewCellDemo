@@ -10,4 +10,8 @@ import UIKit
 
 class DogCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var dogName: UILabel!
+    @IBOutlet weak var dogAge: UILabel!
+    @IBOutlet weak var dogToy: UILabel!
+    
 }

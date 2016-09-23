@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		78B0B7C6C4BCC0E12CB71044 /* Pods_firebaseCustomUICollectionViewCellDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FCEEF30F948582E4A3194C /* Pods_firebaseCustomUICollectionViewCellDemo.framework */; };
 		9AB6D5092A57BD72A20B37F2 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A815C4018747CF657933545 /* Pods_firebaseCustomUICollectionViewCellDemoTests.framework */; };
+		B00BB9291D94BDA500C573A3 /* newCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00BB9281D94BDA500C573A3 /* newCollectionViewCell.swift */; };
+		B00BB92B1D94BDC800C573A3 /* NewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00BB92A1D94BDC800C573A3 /* NewCollectionViewController.swift */; };
 		B06CC3331D947B7F001E25AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3321D947B7F001E25AF /* AppDelegate.swift */; };
 		B06CC3351D947B7F001E25AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06CC3341D947B7F001E25AF /* ViewController.swift */; };
 		B06CC3381D947B7F001E25AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06CC3361D947B7F001E25AF /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		6D2B3A3704BD7E354EB6E8EA /* Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		885C5409EAAD09746BB8D24D /* Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemoUITests/Pods-firebaseCustomUICollectionViewCellDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97056550DF7E16C103484F9F /* Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseCustomUICollectionViewCellDemo/Pods-firebaseCustomUICollectionViewCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B00BB9281D94BDA500C573A3 /* newCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCollectionViewCell.swift; sourceTree = "<group>"; };
+		B00BB92A1D94BDC800C573A3 /* NewCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCollectionViewController.swift; sourceTree = "<group>"; };
 		B06CC32F1D947B7F001E25AF /* firebaseCustomUICollectionViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseCustomUICollectionViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06CC3321D947B7F001E25AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06CC3341D947B7F001E25AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				B06CC3601D9481CA001E25AF /* AddDogViewController.swift */,
 				B06CC3641D948AFF001E25AF /* ShowDogsCollectionViewController.swift */,
 				B06CC3661D948B28001E25AF /* DogCollectionViewCell.swift */,
+				B00BB9281D94BDA500C573A3 /* newCollectionViewCell.swift */,
+				B00BB92A1D94BDC800C573A3 /* NewCollectionViewController.swift */,
 			);
 			path = firebaseCustomUICollectionViewCellDemo;
 			sourceTree = "<group>";
@@ -447,10 +453,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06CC3351D947B7F001E25AF /* ViewController.swift in Sources */,
+				B00BB92B1D94BDC800C573A3 /* NewCollectionViewController.swift in Sources */,
 				B06CC3611D9481CA001E25AF /* AddDogViewController.swift in Sources */,
 				B06CC3671D948B28001E25AF /* DogCollectionViewCell.swift in Sources */,
 				B06CC3651D948AFF001E25AF /* ShowDogsCollectionViewController.swift in Sources */,
 				B06CC3331D947B7F001E25AF /* AppDelegate.swift in Sources */,
+				B00BB9291D94BDA500C573A3 /* newCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
