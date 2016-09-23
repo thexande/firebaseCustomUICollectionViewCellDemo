@@ -26,10 +26,6 @@ class ShowDogsCollectionViewController: UICollectionViewController {
             let dogCell = cell as! DogCollectionViewCell
             
             dogCell.backgroundColor = UIColor.green
-            dogCell.dogName.text = "alex"
-            
-            
-            
             print(snap.childSnapshot(forPath: "name"))
             
           // The line below should set the label text for one of the labels on our custom UICollectionCell Class, however it unwraps to nil.
