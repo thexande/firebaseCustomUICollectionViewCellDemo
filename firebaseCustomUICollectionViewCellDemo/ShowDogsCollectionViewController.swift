@@ -19,19 +19,23 @@ class ShowDogsCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.dataSource = FirebaseCollectionViewDataSource(ref: self.firebaseRef, cellClass: DogCollectionViewCell.self, cellReuseIdentifier: reuseIdentifier, view: self.collectionView!)
+        self.dataSource = FirebaseCollectionViewDataSource(ref: self.firebaseRef, prototypeReuseIdentifier: reuseIdentifier, view: self.collectionView!)
         
         self.dataSource.populateCell { (cell: UICollectionViewCell, obj: NSObject) -> Void in
             let snap = obj as! FIRDataSnapshot
             let dogCell = cell as! DogCollectionViewCell
-            
             dogCell.backgroundColor = UIColor.green
-            print(snap.childSnapshot(forPath: "name"))
             
-          // The line below should set the label text for one of the labels on our custom UICollectionCell Class, however it unwraps to nil.
-          // fatal error: unexpectedly found nil while unwrapping an Optional value
-          // dogCell.dogAge.text = "woot"
-        
+            // name
+            let nameSnap = snap.childSnapshot(forPath: "name")
+            dogCell.dogName.text = nameSnap.value! as? String
+            // favorite toy
+            let toySnap = snap.childSnapshot(forPath: "favorite_toy")
+            dogCell.dogToy.text = toySnap.value! as? String
+            // dog age
+            let ageSnap = snap.childSnapshot(forPath: "age")
+            dogCell.dogAge.text = ageSnap.value! as? String
+            
         }
         self.collectionView?.dataSource = self.dataSource
     }
